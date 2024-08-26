@@ -1,0 +1,123 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "animated": true,
+        "aspectMode": "cover",
+        "aspectRatio": "9:9",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://bluebetfun.com/register"
+        },
+        "url": "https://img2.pic.in.th/pic/7b24900abc736cf56.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "💸 U F A Z I A N 💸",
+            "flex": 0,
+            "weight": "bold",
+            "decoration": "none",
+            "size": "lg",
+            "margin": "none",
+            "color": "#FFFF00",
+            "wrap": true,
+            "align": "center"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✅ แจกเครดิตฟรีรอบล่าสุด",
+                "flex": 0,
+                "weight": "bold",
+                "decoration": "none",
+                "size": "md",
+                "margin": "xxl",
+                "color": "#FFFFFF",
+                "wrap": true
+              }
+            ],
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✅ รับฟรี 100฿ ไม่ต้องฝาก",
+                "flex": 0,
+                "weight": "bold",
+                "decoration": "none",
+                "size": "md",
+                "margin": "xxl",
+                "color": "#FFFFFF",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✅ ฝาก-ถอน ขั้นต่ำ 1 บาท",
+                "flex": 0,
+                "weight": "bold",
+                "decoration": "none",
+                "size": "md",
+                "margin": "xxl",
+                "color": "#FFFFFF",
+                "wrap": true
+              }
+            ]
+          }
+        ],
+        "cornerRadius": "none",
+        "borderWidth": "none",
+        "offsetTop": "none",
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "startColor": "#82850c",
+          "endColor": "#000000"
+        },
+        "justifyContent": "space-around"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://ufazian.com/register?openExternalBrowser=1"
+            },
+            "style": "secondary",
+            "color": "#FFFFFF"
+          }
+        ],
+        "backgroundColor": "#82850c"
+      },
+      "styles": {
+        "footer": {
+          "separator": false
+        }
+      }
+    }
+  ]
+}
